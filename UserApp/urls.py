@@ -24,6 +24,7 @@ urlpatterns = [
     path('removepro/<int:id>',views.removepro,name = 'removepro'),
     path('viewcatpro/<str:category>',views.viewcatpro,name = 'viewcatpro'),
     path('updateprofile',views.updateprofile,name = 'updateprofile'),
+    path('demo',views.demo,name = 'demo'),
 
 
 

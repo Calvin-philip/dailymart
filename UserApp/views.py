@@ -129,6 +129,9 @@ def updateprofile(request):
             place = request.POST.get('place')
             Register.objects.filter(id = user_id).update(name = name,email = email,phone = phone,place = place)
             return redirect('profile')
+        
+def demo(request):
+    return render(request,'demo.html')
 
 
 
